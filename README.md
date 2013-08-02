@@ -10,6 +10,7 @@ These are the Oozie specific configurations to run this job:
 * `mapred.output.value.class` : `org.apache.hadoop.io.IntWritable`
 * `mapred.mapper.class` : `lv.edu.linux.hadoop.wordcount.WordCountMapper`
 * `mapred.reducer.class` : `lv.edu.linux.hadoop.wordcount.WordCountReducer`
+* `mapred.combiner.class` : `lv.edu.linux.hadoop.wordcount.WordCountReducer`
 * `mapred.input.format.class` : `org.apache.hadoop.mapred.TextInputFormat`
 * `mapred.output.format.class` : `org.apache.hadoop.mapred.TextOutputFormat`
 
